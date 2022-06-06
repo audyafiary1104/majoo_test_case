@@ -1,0 +1,12 @@
+{
+    "Product": true,
+    "Users": true,
+    "Roles": true,
+    "Suplier": true,
+    "Customer": true,
+    "Auth": true,
+    "Report": true,
+    "Category": true,
+    "Pos": true,
+    "Dashboard": true
+}

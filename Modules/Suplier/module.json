@@ -1,0 +1,13 @@
+{
+    "name": "Suplier",
+    "alias": "suplier",
+    "description": "",
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\Suplier\\Providers\\SuplierServiceProvider"
+    ],
+    "aliases": {},
+    "files": [],
+    "requires": []
+}
