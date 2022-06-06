@@ -13,5 +13,5 @@
 
 Route::group(['middleware' => ['auth'],'prefix'=>'report'], function () {
     Route::get('/', 'ReportController@index');
-    Route::get('/stock', 'ReportController@stock');
+    Route::get('/stock', 'ReportController@stock')->middleware('permission:stock_report');
 });
